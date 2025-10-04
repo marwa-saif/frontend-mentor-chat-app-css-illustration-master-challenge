@@ -403,6 +403,13 @@ html {
     caret-color: var(--gray-color-300);
     width: 100%;
     border: none;
+    font-size: 9px;
+    color: var(--purple-color-950);
+}
+
+.send-messege form input[type="text"]:focus {
+    outline: none;
+    border: none;
 }
 
 .send-messege form input::placeholder {
